@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Kisan Saathi - Crop Yield Optimizer",
+  "short_name": "Kisan Saathi",
+  "description": "Farm planning tools for crop yield, weather, soil and mandi prices.",
+  "lang": "en-IN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f0",
+  "theme_color": "#174832",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any 192x192 512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

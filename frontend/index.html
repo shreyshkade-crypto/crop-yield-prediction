@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#174832">
+<meta name="description" content="Kisan Saathi helps farmers plan crops with yield insights, weather, soil advice and mandi prices.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<title>Crop Yield Optimizer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css?v=20261123-history-sidebar">
+</head>
+<body>
+<header id="public-header" class="public-header" hidden></header>
+<aside class="side" id="app-side">
+  <div class="brand"><svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><path d="M14 26V10M14 14c0-5 3-8 8-8 0 5-3 8-8 8ZM14 18c0-4-2.5-6.500-7-6.500 0 4 2.500 6.500 7 6.500Z" fill="none" stroke="#d9a441" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Crop Yield<br>Optimizer</span></div>
+  <nav id="nav" aria-label="Main"></nav>
+  <div id="account" class="account"></div>
+  <div id="status" class="status"></div>
+</aside>
+<main id="view" tabindex="-1"></main>
+<script>window.API_BASE = ""; /* Flask serves the site and API on the same origin. */</script>
+<script src="app.js?v=20261123-history-sidebar"></script>
+<script>
+if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => {}));
+}
+</script>
+</body>
+</html>

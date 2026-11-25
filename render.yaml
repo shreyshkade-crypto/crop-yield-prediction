@@ -1,0 +1,15 @@
+﻿services:
+  - type: web
+    name: kisan-saathi
+    runtime: python
+    plan: free
+    buildCommand: cd backend && pip install -r requirements.txt && (test -f data/crop_yield.csv || python make_demo_data.py) && python train_model.py
+    startCommand: cd backend && gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.11
+      - key: DATA_GOV_API_KEY
+        sync: false
+      - key: COOKIE_SECURE
+        value: "true"

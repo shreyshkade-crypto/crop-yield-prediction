@@ -1,0 +1,1186 @@
+{
+  "metrics": {
+    "MAE": 1.6062665721494378,
+    "RMSE": 3.822729383081094,
+    "R2": 0.9729186361144504,
+    "train_rows": 2400,
+    "test_rows": 600
+  },
+  "data_report": {
+    "rows_raw": 3000,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "rows_clean": 3000
+  },
+  "feature_importance": {
+    "Crop": 0.9876825328810565,
+    "Season": 0.0004159469043531714,
+    "State": 0.0007106015121801683,
+    "Area": 0.0011402841331056447,
+    "Annual_Rainfall": 0.0070032532979897675,
+    "Fertilizer_per_ha": 0.001847619664480284,
+    "Pesticide_per_ha": 0.0011997616068345394
+  },
+  "categories": {
+    "Crop": [
+      "Cotton",
+      "Groundnut",
+      "Maize",
+      "Potato",
+      "Rice",
+      "Soybean",
+      "Sugarcane",
+      "Wheat"
+    ],
+    "Season": [
+      "Kharif",
+      "Rabi",
+      "Whole Year"
+    ],
+    "State": [
+      "Gujarat",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Punjab",
+      "Tamil Nadu",
+      "Uttar Pradesh",
+      "West Bengal"
+    ]
+  },
+  "latest_year": 2019,
+  "crop_stats": {
+    "Cotton": {
+      "n": 353,
+      "yield_mean": 0.6397450424929179,
+      "yield_p25": 0.543,
+      "yield_p50": 0.622,
+      "yield_p75": 0.725,
+      "rain_p25": 556.8,
+      "rain_p75": 840.6,
+      "fert_p25": 75.41585449127815,
+      "fert_p50": 115.8717570343191,
+      "fert_p75": 160.6206085056312
+    },
+    "Groundnut": {
+      "n": 379,
+      "yield_mean": 1.4128944591029022,
+      "yield_p25": 1.2145000000000001,
+      "yield_p50": 1.401,
+      "yield_p75": 1.6005,
+      "rain_p25": 571.15,
+      "rain_p75": 842.6,
+      "fert_p25": 76.65155580106679,
+      "fert_p50": 111.91680757524517,
+      "fert_p75": 159.8788450876471
+    },
+    "Maize": {
+      "n": 377,
+      "yield_mean": 3.584761273209549,
+      "yield_p25": 3.048,
+      "yield_p50": 3.53,
+      "yield_p75": 4.075,
+      "rain_p25": 633.9,
+      "rain_p75": 989.7,
+      "fert_p25": 77.4867531178259,
+      "fert_p50": 111.64562607204117,
+      "fert_p75": 153.19721220318607
+    },
+    "Potato": {
+      "n": 351,
+      "yield_mean": 26.06667236467236,
+      "yield_p25": 21.631999999999998,
+      "yield_p50": 25.705,
+      "yield_p75": 29.739,
+      "rain_p25": 463.15,
+      "rain_p75": 732.15,
+      "fert_p25": 77.16855507768622,
+      "fert_p50": 108.33170364798798,
+      "fert_p75": 157.0191562564878
+    },
+    "Rice": {
+      "n": 399,
+      "yield_mean": 2.8656466165413534,
+      "yield_p25": 2.4805,
+      "yield_p50": 2.816,
+      "yield_p75": 3.229,
+      "rain_p25": 974.45,
+      "rain_p75": 1454.75,
+      "fert_p25": 73.05257601794466,
+      "fert_p50": 105.30607144494888,
+      "fert_p75": 147.77942936800156
+    },
+    "Soybean": {
+      "n": 396,
+      "yield_mean": 1.260820707070707,
+      "yield_p25": 1.0625,
+      "yield_p50": 1.252,
+      "yield_p75": 1.42225,
+      "rain_p25": 731.675,
+      "rain_p75": 1067.575,
+      "fert_p25": 73.07192791459238,
+      "fert_p50": 107.72698196491257,
+      "fert_p75": 152.4573490351649
+    },
+    "Sugarcane": {
+      "n": 365,
+      "yield_mean": 77.58417534246576,
+      "yield_p25": 66.858,
+      "yield_p50": 77.42,
+      "yield_p75": 88.273,
+      "rain_p25": 1067.1,
+      "rain_p75": 1580.6,
+      "fert_p25": 74.9247752361443,
+      "fert_p50": 109.57628644859521,
+      "fert_p75": 151.74236128086042
+    },
+    "Wheat": {
+      "n": 380,
+      "yield_mean": 3.7930236842105267,
+      "yield_p25": 3.1855,
+      "yield_p50": 3.7095000000000002,
+      "yield_p75": 4.392250000000001,
+      "rain_p25": 527.1500000000001,
+      "rain_p75": 806.425,
+      "fert_p25": 71.51509771299808,
+      "fert_p50": 109.13737747466271,
+      "fert_p75": 153.92790412775668
+    }
+  },
+  "analytics": {
+    "crop_comparison": [
+      {
+        "crop": "Sugarcane",
+        "avg_yield": 77.58417534246576,
+        "n": 365
+      },
+      {
+        "crop": "Potato",
+        "avg_yield": 26.06667236467236,
+        "n": 351
+      },
+      {
+        "crop": "Wheat",
+        "avg_yield": 3.7930236842105267,
+        "n": 380
+      },
+      {
+        "crop": "Maize",
+        "avg_yield": 3.584761273209549,
+        "n": 377
+      },
+      {
+        "crop": "Rice",
+        "avg_yield": 2.8656466165413534,
+        "n": 399
+      },
+      {
+        "crop": "Groundnut",
+        "avg_yield": 1.4128944591029022,
+        "n": 379
+      },
+      {
+        "crop": "Soybean",
+        "avg_yield": 1.260820707070707,
+        "n": 396
+      },
+      {
+        "crop": "Cotton",
+        "avg_yield": 0.6397450424929179,
+        "n": 353
+      }
+    ],
+    "yearly_trend": [
+      {
+        "year": 1997,
+        "crop": "Cotton",
+        "avg_yield": 0.5481666666666667
+      },
+      {
+        "year": 1997,
+        "crop": "Groundnut",
+        "avg_yield": 1.3383
+      },
+      {
+        "year": 1997,
+        "crop": "Maize",
+        "avg_yield": 3.2941428571428575
+      },
+      {
+        "year": 1997,
+        "crop": "Potato",
+        "avg_yield": 22.680333333333333
+      },
+      {
+        "year": 1997,
+        "crop": "Rice",
+        "avg_yield": 2.3985833333333333
+      },
+      {
+        "year": 1997,
+        "crop": "Soybean",
+        "avg_yield": 1.028857142857143
+      },
+      {
+        "year": 1997,
+        "crop": "Sugarcane",
+        "avg_yield": 71.48214285714286
+      },
+      {
+        "year": 1997,
+        "crop": "Wheat",
+        "avg_yield": 3.269185185185185
+      },
+      {
+        "year": 1998,
+        "crop": "Cotton",
+        "avg_yield": 0.6472142857142857
+      },
+      {
+        "year": 1998,
+        "crop": "Groundnut",
+        "avg_yield": 1.400923076923077
+      },
+      {
+        "year": 1998,
+        "crop": "Maize",
+        "avg_yield": 3.3159411764705884
+      },
+      {
+        "year": 1998,
+        "crop": "Potato",
+        "avg_yield": 23.90405882352941
+      },
+      {
+        "year": 1998,
+        "crop": "Rice",
+        "avg_yield": 2.5690625000000002
+      },
+      {
+        "year": 1998,
+        "crop": "Soybean",
+        "avg_yield": 1.1015
+      },
+      {
+        "year": 1998,
+        "crop": "Sugarcane",
+        "avg_yield": 69.93345454545455
+      },
+      {
+        "year": 1998,
+        "crop": "Wheat",
+        "avg_yield": 3.4375555555555555
+      },
+      {
+        "year": 1999,
+        "crop": "Cotton",
+        "avg_yield": 0.6202000000000001
+      },
+      {
+        "year": 1999,
+        "crop": "Groundnut",
+        "avg_yield": 1.303857142857143
+      },
+      {
+        "year": 1999,
+        "crop": "Maize",
+        "avg_yield": 3.212111111111111
+      },
+      {
+        "year": 1999,
+        "crop": "Potato",
+        "avg_yield": 23.057947368421054
+      },
+      {
+        "year": 1999,
+        "crop": "Rice",
+        "avg_yield": 2.4653478260869566
+      },
+      {
+        "year": 1999,
+        "crop": "Soybean",
+        "avg_yield": 1.1605263157894736
+      },
+      {
+        "year": 1999,
+        "crop": "Sugarcane",
+        "avg_yield": 67.82642857142858
+      },
+      {
+        "year": 1999,
+        "crop": "Wheat",
+        "avg_yield": 3.3358461538461537
+      },
+      {
+        "year": 2000,
+        "crop": "Cotton",
+        "avg_yield": 0.6062727272727273
+      },
+      {
+        "year": 2000,
+        "crop": "Groundnut",
+        "avg_yield": 1.3254444444444444
+      },
+      {
+        "year": 2000,
+        "crop": "Maize",
+        "avg_yield": 3.5386666666666664
+      },
+      {
+        "year": 2000,
+        "crop": "Potato",
+        "avg_yield": 23.707066666666666
+      },
+      {
+        "year": 2000,
+        "crop": "Rice",
+        "avg_yield": 2.843529411764706
+      },
+      {
+        "year": 2000,
+        "crop": "Soybean",
+        "avg_yield": 1.2048181818181818
+      },
+      {
+        "year": 2000,
+        "crop": "Sugarcane",
+        "avg_yield": 77.72095
+      },
+      {
+        "year": 2000,
+        "crop": "Wheat",
+        "avg_yield": 3.8681875
+      },
+      {
+        "year": 2001,
+        "crop": "Cotton",
+        "avg_yield": 0.5287
+      },
+      {
+        "year": 2001,
+        "crop": "Groundnut",
+        "avg_yield": 1.3234117647058825
+      },
+      {
+        "year": 2001,
+        "crop": "Maize",
+        "avg_yield": 3.3998235294117647
+      },
+      {
+        "year": 2001,
+        "crop": "Potato",
+        "avg_yield": 23.204285714285714
+      },
+      {
+        "year": 2001,
+        "crop": "Rice",
+        "avg_yield": 2.5955
+      },
+      {
+        "year": 2001,
+        "crop": "Soybean",
+        "avg_yield": 1.1339333333333335
+      },
+      {
+        "year": 2001,
+        "crop": "Sugarcane",
+        "avg_yield": 68.92633333333333
+      },
+      {
+        "year": 2001,
+        "crop": "Wheat",
+        "avg_yield": 3.3636
+      },
+      {
+        "year": 2002,
+        "crop": "Cotton",
+        "avg_yield": 0.5900666666666667
+      },
+      {
+        "year": 2002,
+        "crop": "Groundnut",
+        "avg_yield": 1.3354615384615385
+      },
+      {
+        "year": 2002,
+        "crop": "Maize",
+        "avg_yield": 3.56835
+      },
+      {
+        "year": 2002,
+        "crop": "Potato",
+        "avg_yield": 27.031928571428573
+      },
+      {
+        "year": 2002,
+        "crop": "Rice",
+        "avg_yield": 2.738277777777778
+      },
+      {
+        "year": 2002,
+        "crop": "Soybean",
+        "avg_yield": 1.1642608695652172
+      },
+      {
+        "year": 2002,
+        "crop": "Sugarcane",
+        "avg_yield": 71.31745454545454
+      },
+      {
+        "year": 2002,
+        "crop": "Wheat",
+        "avg_yield": 3.6569999999999996
+      },
+      {
+        "year": 2003,
+        "crop": "Cotton",
+        "avg_yield": 0.5538000000000001
+      },
+      {
+        "year": 2003,
+        "crop": "Groundnut",
+        "avg_yield": 1.3461176470588236
+      },
+      {
+        "year": 2003,
+        "crop": "Maize",
+        "avg_yield": 3.340842105263158
+      },
+      {
+        "year": 2003,
+        "crop": "Potato",
+        "avg_yield": 23.89542857142857
+      },
+      {
+        "year": 2003,
+        "crop": "Rice",
+        "avg_yield": 2.8135
+      },
+      {
+        "year": 2003,
+        "crop": "Soybean",
+        "avg_yield": 1.2548
+      },
+      {
+        "year": 2003,
+        "crop": "Sugarcane",
+        "avg_yield": 75.06127272727272
+      },
+      {
+        "year": 2003,
+        "crop": "Wheat",
+        "avg_yield": 3.6753333333333336
+      },
+      {
+        "year": 2004,
+        "crop": "Cotton",
+        "avg_yield": 0.6765
+      },
+      {
+        "year": 2004,
+        "crop": "Groundnut",
+        "avg_yield": 1.2527692307692309
+      },
+      {
+        "year": 2004,
+        "crop": "Maize",
+        "avg_yield": 3.2569999999999997
+      },
+      {
+        "year": 2004,
+        "crop": "Potato",
+        "avg_yield": 23.235916666666668
+      },
+      {
+        "year": 2004,
+        "crop": "Rice",
+        "avg_yield": 2.8819444444444446
+      },
+      {
+        "year": 2004,
+        "crop": "Soybean",
+        "avg_yield": 1.1261923076923077
+      },
+      {
+        "year": 2004,
+        "crop": "Sugarcane",
+        "avg_yield": 77.44417647058823
+      },
+      {
+        "year": 2004,
+        "crop": "Wheat",
+        "avg_yield": 4.118875
+      },
+      {
+        "year": 2005,
+        "crop": "Cotton",
+        "avg_yield": 0.6507826086956522
+      },
+      {
+        "year": 2005,
+        "crop": "Groundnut",
+        "avg_yield": 1.3597333333333335
+      },
+      {
+        "year": 2005,
+        "crop": "Maize",
+        "avg_yield": 3.6874285714285717
+      },
+      {
+        "year": 2005,
+        "crop": "Potato",
+        "avg_yield": 24.972133333333332
+      },
+      {
+        "year": 2005,
+        "crop": "Rice",
+        "avg_yield": 2.743909090909091
+      },
+      {
+        "year": 2005,
+        "crop": "Soybean",
+        "avg_yield": 1.1380000000000001
+      },
+      {
+        "year": 2005,
+        "crop": "Sugarcane",
+        "avg_yield": 77.91091666666667
+      },
+      {
+        "year": 2005,
+        "crop": "Wheat",
+        "avg_yield": 3.728875
+      },
+      {
+        "year": 2006,
+        "crop": "Cotton",
+        "avg_yield": 0.635
+      },
+      {
+        "year": 2006,
+        "crop": "Groundnut",
+        "avg_yield": 1.4066923076923077
+      },
+      {
+        "year": 2006,
+        "crop": "Maize",
+        "avg_yield": 3.4790769230769234
+      },
+      {
+        "year": 2006,
+        "crop": "Potato",
+        "avg_yield": 24.8745
+      },
+      {
+        "year": 2006,
+        "crop": "Rice",
+        "avg_yield": 2.4088
+      },
+      {
+        "year": 2006,
+        "crop": "Soybean",
+        "avg_yield": 1.310142857142857
+      },
+      {
+        "year": 2006,
+        "crop": "Sugarcane",
+        "avg_yield": 83.61521428571429
+      },
+      {
+        "year": 2006,
+        "crop": "Wheat",
+        "avg_yield": 3.3760000000000003
+      },
+      {
+        "year": 2007,
+        "crop": "Cotton",
+        "avg_yield": 0.6198
+      },
+      {
+        "year": 2007,
+        "crop": "Groundnut",
+        "avg_yield": 1.4342666666666666
+      },
+      {
+        "year": 2007,
+        "crop": "Maize",
+        "avg_yield": 3.315923076923077
+      },
+      {
+        "year": 2007,
+        "crop": "Potato",
+        "avg_yield": 25.788333333333334
+      },
+      {
+        "year": 2007,
+        "crop": "Rice",
+        "avg_yield": 2.9506315789473683
+      },
+      {
+        "year": 2007,
+        "crop": "Soybean",
+        "avg_yield": 1.2247391304347826
+      },
+      {
+        "year": 2007,
+        "crop": "Sugarcane",
+        "avg_yield": 77.6081111111111
+      },
+      {
+        "year": 2007,
+        "crop": "Wheat",
+        "avg_yield": 3.7152000000000003
+      },
+      {
+        "year": 2008,
+        "crop": "Cotton",
+        "avg_yield": 0.6625384615384615
+      },
+      {
+        "year": 2008,
+        "crop": "Groundnut",
+        "avg_yield": 1.2865
+      },
+      {
+        "year": 2008,
+        "crop": "Maize",
+        "avg_yield": 3.5193846153846158
+      },
+      {
+        "year": 2008,
+        "crop": "Potato",
+        "avg_yield": 28.6965
+      },
+      {
+        "year": 2008,
+        "crop": "Rice",
+        "avg_yield": 2.971285714285714
+      },
+      {
+        "year": 2008,
+        "crop": "Soybean",
+        "avg_yield": 1.349
+      },
+      {
+        "year": 2008,
+        "crop": "Sugarcane",
+        "avg_yield": 73.89657142857143
+      },
+      {
+        "year": 2008,
+        "crop": "Wheat",
+        "avg_yield": 3.9394117647058824
+      },
+      {
+        "year": 2009,
+        "crop": "Cotton",
+        "avg_yield": 0.6321176470588236
+      },
+      {
+        "year": 2009,
+        "crop": "Groundnut",
+        "avg_yield": 1.3839444444444444
+      },
+      {
+        "year": 2009,
+        "crop": "Maize",
+        "avg_yield": 3.6831666666666667
+      },
+      {
+        "year": 2009,
+        "crop": "Potato",
+        "avg_yield": 25.023444444444447
+      },
+      {
+        "year": 2009,
+        "crop": "Rice",
+        "avg_yield": 2.9453529411764703
+      },
+      {
+        "year": 2009,
+        "crop": "Soybean",
+        "avg_yield": 1.3037894736842104
+      },
+      {
+        "year": 2009,
+        "crop": "Sugarcane",
+        "avg_yield": 72.80605263157895
+      },
+      {
+        "year": 2009,
+        "crop": "Wheat",
+        "avg_yield": 3.5974166666666663
+      },
+      {
+        "year": 2010,
+        "crop": "Cotton",
+        "avg_yield": 0.6637142857142857
+      },
+      {
+        "year": 2010,
+        "crop": "Groundnut",
+        "avg_yield": 1.4222
+      },
+      {
+        "year": 2010,
+        "crop": "Maize",
+        "avg_yield": 3.6135384615384614
+      },
+      {
+        "year": 2010,
+        "crop": "Potato",
+        "avg_yield": 25.194111111111113
+      },
+      {
+        "year": 2010,
+        "crop": "Rice",
+        "avg_yield": 2.8678333333333335
+      },
+      {
+        "year": 2010,
+        "crop": "Soybean",
+        "avg_yield": 1.4044117647058822
+      },
+      {
+        "year": 2010,
+        "crop": "Sugarcane",
+        "avg_yield": 76.3956875
+      },
+      {
+        "year": 2010,
+        "crop": "Wheat",
+        "avg_yield": 3.981421052631579
+      },
+      {
+        "year": 2011,
+        "crop": "Cotton",
+        "avg_yield": 0.6219375
+      },
+      {
+        "year": 2011,
+        "crop": "Groundnut",
+        "avg_yield": 1.6259166666666667
+      },
+      {
+        "year": 2011,
+        "crop": "Maize",
+        "avg_yield": 3.5345769230769233
+      },
+      {
+        "year": 2011,
+        "crop": "Potato",
+        "avg_yield": 26.97235
+      },
+      {
+        "year": 2011,
+        "crop": "Rice",
+        "avg_yield": 2.964166666666667
+      },
+      {
+        "year": 2011,
+        "crop": "Soybean",
+        "avg_yield": 1.3212105263157896
+      },
+      {
+        "year": 2011,
+        "crop": "Sugarcane",
+        "avg_yield": 79.92826666666666
+      },
+      {
+        "year": 2011,
+        "crop": "Wheat",
+        "avg_yield": 3.8064999999999998
+      },
+      {
+        "year": 2012,
+        "crop": "Cotton",
+        "avg_yield": 0.6779
+      },
+      {
+        "year": 2012,
+        "crop": "Groundnut",
+        "avg_yield": 1.488235294117647
+      },
+      {
+        "year": 2012,
+        "crop": "Maize",
+        "avg_yield": 3.6349565217391304
+      },
+      {
+        "year": 2012,
+        "crop": "Potato",
+        "avg_yield": 26.545454545454547
+      },
+      {
+        "year": 2012,
+        "crop": "Rice",
+        "avg_yield": 3.2234444444444446
+      },
+      {
+        "year": 2012,
+        "crop": "Soybean",
+        "avg_yield": 1.2910526315789475
+      },
+      {
+        "year": 2012,
+        "crop": "Sugarcane",
+        "avg_yield": 78.99491666666667
+      },
+      {
+        "year": 2012,
+        "crop": "Wheat",
+        "avg_yield": 3.8183333333333334
+      },
+      {
+        "year": 2013,
+        "crop": "Cotton",
+        "avg_yield": 0.6131428571428571
+      },
+      {
+        "year": 2013,
+        "crop": "Groundnut",
+        "avg_yield": 1.5622
+      },
+      {
+        "year": 2013,
+        "crop": "Maize",
+        "avg_yield": 3.7278333333333333
+      },
+      {
+        "year": 2013,
+        "crop": "Potato",
+        "avg_yield": 31.0662
+      },
+      {
+        "year": 2013,
+        "crop": "Rice",
+        "avg_yield": 2.9639545454545453
+      },
+      {
+        "year": 2013,
+        "crop": "Soybean",
+        "avg_yield": 1.365
+      },
+      {
+        "year": 2013,
+        "crop": "Sugarcane",
+        "avg_yield": 76.14711764705882
+      },
+      {
+        "year": 2013,
+        "crop": "Wheat",
+        "avg_yield": 4.0732
+      },
+      {
+        "year": 2014,
+        "crop": "Cotton",
+        "avg_yield": 0.6846470588235294
+      },
+      {
+        "year": 2014,
+        "crop": "Groundnut",
+        "avg_yield": 1.3887222222222222
+      },
+      {
+        "year": 2014,
+        "crop": "Maize",
+        "avg_yield": 3.7972380952380953
+      },
+      {
+        "year": 2014,
+        "crop": "Potato",
+        "avg_yield": 27.292749999999998
+      },
+      {
+        "year": 2014,
+        "crop": "Rice",
+        "avg_yield": 3.03325
+      },
+      {
+        "year": 2014,
+        "crop": "Soybean",
+        "avg_yield": 1.1922727272727274
+      },
+      {
+        "year": 2014,
+        "crop": "Sugarcane",
+        "avg_yield": 85.4898125
+      },
+      {
+        "year": 2014,
+        "crop": "Wheat",
+        "avg_yield": 4.023809523809524
+      },
+      {
+        "year": 2015,
+        "crop": "Cotton",
+        "avg_yield": 0.7223888888888889
+      },
+      {
+        "year": 2015,
+        "crop": "Groundnut",
+        "avg_yield": 1.458625
+      },
+      {
+        "year": 2015,
+        "crop": "Maize",
+        "avg_yield": 3.7072142857142856
+      },
+      {
+        "year": 2015,
+        "crop": "Potato",
+        "avg_yield": 28.879592592592594
+      },
+      {
+        "year": 2015,
+        "crop": "Rice",
+        "avg_yield": 2.8663636363636367
+      },
+      {
+        "year": 2015,
+        "crop": "Soybean",
+        "avg_yield": 1.441625
+      },
+      {
+        "year": 2015,
+        "crop": "Sugarcane",
+        "avg_yield": 84.24308333333333
+      },
+      {
+        "year": 2015,
+        "crop": "Wheat",
+        "avg_yield": 3.837666666666667
+      },
+      {
+        "year": 2016,
+        "crop": "Cotton",
+        "avg_yield": 0.7056470588235294
+      },
+      {
+        "year": 2016,
+        "crop": "Groundnut",
+        "avg_yield": 1.5857777777777777
+      },
+      {
+        "year": 2016,
+        "crop": "Maize",
+        "avg_yield": 3.975
+      },
+      {
+        "year": 2016,
+        "crop": "Potato",
+        "avg_yield": 28.80035714285714
+      },
+      {
+        "year": 2016,
+        "crop": "Rice",
+        "avg_yield": 3.0558571428571426
+      },
+      {
+        "year": 2016,
+        "crop": "Soybean",
+        "avg_yield": 1.3615263157894737
+      },
+      {
+        "year": 2016,
+        "crop": "Sugarcane",
+        "avg_yield": 86.971
+      },
+      {
+        "year": 2016,
+        "crop": "Wheat",
+        "avg_yield": 4.148875
+      },
+      {
+        "year": 2017,
+        "crop": "Cotton",
+        "avg_yield": 0.6782
+      },
+      {
+        "year": 2017,
+        "crop": "Groundnut",
+        "avg_yield": 1.4495
+      },
+      {
+        "year": 2017,
+        "crop": "Maize",
+        "avg_yield": 3.9558823529411766
+      },
+      {
+        "year": 2017,
+        "crop": "Potato",
+        "avg_yield": 25.594
+      },
+      {
+        "year": 2017,
+        "crop": "Rice",
+        "avg_yield": 3.0452105263157896
+      },
+      {
+        "year": 2017,
+        "crop": "Soybean",
+        "avg_yield": 1.354684210526316
+      },
+      {
+        "year": 2017,
+        "crop": "Sugarcane",
+        "avg_yield": 87.40533333333333
+      },
+      {
+        "year": 2017,
+        "crop": "Wheat",
+        "avg_yield": 4.227250000000001
+      },
+      {
+        "year": 2018,
+        "crop": "Cotton",
+        "avg_yield": 0.6985
+      },
+      {
+        "year": 2018,
+        "crop": "Groundnut",
+        "avg_yield": 1.5070625
+      },
+      {
+        "year": 2018,
+        "crop": "Maize",
+        "avg_yield": 3.8403125
+      },
+      {
+        "year": 2018,
+        "crop": "Potato",
+        "avg_yield": 28.927866666666667
+      },
+      {
+        "year": 2018,
+        "crop": "Rice",
+        "avg_yield": 3.344818181818182
+      },
+      {
+        "year": 2018,
+        "crop": "Soybean",
+        "avg_yield": 1.362111111111111
+      },
+      {
+        "year": 2018,
+        "crop": "Sugarcane",
+        "avg_yield": 83.9964
+      },
+      {
+        "year": 2018,
+        "crop": "Wheat",
+        "avg_yield": 4.151111111111111
+      },
+      {
+        "year": 2019,
+        "crop": "Cotton",
+        "avg_yield": 0.6849285714285714
+      },
+      {
+        "year": 2019,
+        "crop": "Groundnut",
+        "avg_yield": 1.6090869565217392
+      },
+      {
+        "year": 2019,
+        "crop": "Maize",
+        "avg_yield": 3.9153684210526314
+      },
+      {
+        "year": 2019,
+        "crop": "Potato",
+        "avg_yield": 28.89688888888889
+      },
+      {
+        "year": 2019,
+        "crop": "Rice",
+        "avg_yield": 3.1222380952380955
+      },
+      {
+        "year": 2019,
+        "crop": "Soybean",
+        "avg_yield": 1.4670588235294117
+      },
+      {
+        "year": 2019,
+        "crop": "Sugarcane",
+        "avg_yield": 83.04578571428571
+      },
+      {
+        "year": 2019,
+        "crop": "Wheat",
+        "avg_yield": 4.125526315789474
+      }
+    ],
+    "rainfall_vs_yield": [
+      {
+        "range": "197-493 mm",
+        "avg_yield": 8.058126865671642
+      },
+      {
+        "range": "493-787 mm",
+        "avg_yield": 8.284300884955751
+      },
+      {
+        "range": "787-1080 mm",
+        "avg_yield": 8.705521337946942
+      },
+      {
+        "range": "1080-1374 mm",
+        "avg_yield": 22.62012846347607
+      },
+      {
+        "range": "1374-1668 mm",
+        "avg_yield": 39.98442786069651
+      },
+      {
+        "range": "1668-1961 mm",
+        "avg_yield": 52.213037974683544
+      },
+      {
+        "range": "1961-2255 mm",
+        "avg_yield": 59.06474193548387
+      },
+      {
+        "range": "2255-2548 mm",
+        "avg_yield": 79.88983333333333
+      }
+    ],
+    "fertilizer_by_crop": [
+      {
+        "crop": "Cotton",
+        "median_kg_per_ha": 115.8717570343191
+      },
+      {
+        "crop": "Groundnut",
+        "median_kg_per_ha": 111.91680757524517
+      },
+      {
+        "crop": "Maize",
+        "median_kg_per_ha": 111.64562607204117
+      },
+      {
+        "crop": "Potato",
+        "median_kg_per_ha": 108.33170364798798
+      },
+      {
+        "crop": "Rice",
+        "median_kg_per_ha": 105.30607144494888
+      },
+      {
+        "crop": "Soybean",
+        "median_kg_per_ha": 107.72698196491257
+      },
+      {
+        "crop": "Sugarcane",
+        "median_kg_per_ha": 109.57628644859521
+      },
+      {
+        "crop": "Wheat",
+        "median_kg_per_ha": 109.13737747466271
+      }
+    ]
+  },
+  "model": "RandomForestRegressor (log1p target)",
+  "dataset_file": "crop_yield.csv"
+}

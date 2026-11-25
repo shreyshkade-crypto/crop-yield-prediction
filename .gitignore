@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+frontend/dist/
+backend/database/*.db
+backend/models/*.joblib
+backend/data/crop_yield.csv
