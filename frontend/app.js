@@ -1,6 +1,6 @@
 "use strict";
-// Same-origin by default: this works on localhost, HTTPS deployments, and custom ports.
-const API = window.API_BASE ?? "";
+
+const API = "https://crop-yield-prediction-pi.vercel.app";
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt = (n, d = 2) => Number(n).toLocaleString("en-IN", { maximumFractionDigits: d });
