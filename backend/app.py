@@ -20,7 +20,12 @@ MODEL_DIR = os.environ.get("MODEL_DIR", os.path.join(HERE, "models"))
 DB_PATH = os.environ.get("DB_PATH", os.path.join(HERE, "database", "history.db"))
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024
-if CORS: CORS(app, origins=os.environ.get("ALLOWED_ORIGIN", "http://localhost:5173"), supports_credentials=True)
+if CORS:
+    CORS(
+        app,
+        origins=["https://crop-yield-prediction-frontend.vercel.app"],
+        supports_credentials=True
+    )
 FRONT = os.path.join(os.path.dirname(HERE), "frontend")
 
 MODEL, META = None, None
