@@ -17,7 +17,7 @@ from preprocess import CAT, NUM
 load_dotenv()
 HERE = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.environ.get("MODEL_DIR", os.path.join(HERE, "models"))
-DB_PATH = os.environ.get("DB_PATH", os.path.join(HERE, "database", "history.db"))
+DB_PATH = "/tmp/crop_yield.db"
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024
 if CORS:
